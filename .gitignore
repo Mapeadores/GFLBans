@@ -11,3 +11,14 @@ src/
 *.old
 *.vscode
 templates/configs/*.html
+
+# Server keys (SENSITIVE!)
+ze_server_key.txt
+*_server_key.txt
+
+# Docker
+.dockerignore
+
+# OS
+.DS_Store
+Thumbs.db

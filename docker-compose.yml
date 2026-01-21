@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  gflbans:
+    build: .
+    ports:
+      - "3335:3335"
+    env_file:
+      - .env
+    restart: unless-stopped
